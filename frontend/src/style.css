@@ -1,0 +1,108 @@
+
+.App{
+    
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.vcards{
+    display: flex;
+    gap: 10px;
+}
+.vcard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    
+} 
+input{
+    padding: 10px;
+}
+/*CONTAINER*/
+.container{
+    color: #fff;
+    text-align: justify;
+    
+}
+
+/*BUTTONS*/
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #07ff07;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #07ff07; 
+}
+  
+button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #000000;
+   
+}
+
+/*BUTTON LINKS*/
+.UpdateLinks{
+    text-decoration: none;
+    color: white;
+}
+.ComponentLinks{
+    text-decoration: none;
+    color: white;
+}
+/*CARDS*/
+.rgbcard {
+    width: 414px;
+    height: 250px;
+    background: transparent;
+    border: 2px solid #07ff07;
+    box-shadow: 2px 2px 15px #000000 inset;
+    border-radius: 10px;
+    color: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pacifico';
+}
+  
+.rgbcard:hover {
+    color: #07ff07;
+    box-shadow: 2px 2px 15px #07ff07 inset;
+  }
+
+
+/*CREATE NEW ITEM FORM*/  
+.form{
+    width: 800px;
+    padding: 20px 20px;
+    margin: 8px 0;
+    color: #ffffff;
+    font-size: 40px;
+    display: inline-block;
+    border: 2px solid #07ff07; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #000000 inset;
+}
